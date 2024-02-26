@@ -14,21 +14,21 @@ Support GCC compiler. More information of these compiler version as following:
 
 ## **Build RT-Thread**
 
-You can build rt-thread.bin for NuMaker-HMI-MA35D0 board. Steps as following.
+You can build rt-thread.bin for NuMaker-IOT-MA35D0 board. Steps as following.
 
 ```bash
-# cd rt-thread/bsp/nuvoton/numaker-hmi-ma35d0
+# cd rt-thread/bsp/nuvoton/numaker-iot-ma35d0
 # menuconfig --generate
 # scons -c
 # pkgs --update
 # scons -j 16
 
-<Path-to-rt-thread>\bsp\nuvoton\numaker-hmi-ma35d0\rtthread.bin
+<Path-to-rt-thread>\bsp\nuvoton\numaker-iot-ma35d0\rtthread.bin
 ```
 
 ## **Program firmware using NuWriter**
 
-To switch SW7 dip-switch on NuMaker-HMI-MA35D0 base board to do corresponding  actions as below.
+To switch SW7 dip-switch on NuMaker-IOT-MA35D0 base board to do corresponding  actions as below.
 
 **Power-on Setting**
 L: OFF dip-switch
@@ -48,7 +48,7 @@ H: ON dip-switch
 You can run windows batch script to download rtthread.bin into memory, then run it. The path of batch script as below.
 
 ```bash
-<path-to-rtthread>\bsp\nuvoton\numaker-hmi-ma35d0\nuwriter_scripts\nuwriter_ddr_download_and_run.bat
+<path-to-rtthread>\bsp\nuvoton\numaker-iot-ma35d0\nuwriter_scripts\nuwriter_ddr_download_and_run.bat
 ```
 
 ### **Burn to SD0/1**
@@ -56,7 +56,7 @@ You can run windows batch script to download rtthread.bin into memory, then run 
 You can run windows batch script to download rtthread.bin into SD card, then run it. The path of batch script as below.
 
 ```bash
-<path-to-rtthread>\bsp\nuvoton\numaker-hmi-ma35d0\nuwriter_scripts\nuwriter_program_sd.bat
+<path-to-rtthread>\bsp\nuvoton\numaker-iot-ma35d0\nuwriter_scripts\nuwriter_program_sd.bat
 ```
 
 ### **Burn to Serial NAND**
@@ -64,7 +64,7 @@ You can run windows batch script to download rtthread.bin into SD card, then run
 You can run windows batch script to download rtthread.bin into SPI-NAND flash, then run it. The path of batch script as below.
 
 ```bash
-<path-to-rtthread>\bsp\nuvoton\numaker-hmi-ma35d0\nuwriter_scripts\nuwriter_program_spinand.bat
+<path-to-rtthread>\bsp\nuvoton\numaker-iot-ma35d0\nuwriter_scripts\nuwriter_program_spinand.bat
 ```
 
 ### **Burn to Raw NAND**
@@ -72,7 +72,7 @@ You can run windows batch script to download rtthread.bin into SPI-NAND flash, t
 You can run windows batch script to download rtthread.bin into Raw NAND flash, then run it. The path of batch script as below.
 
 ```bash
-<path-to-rtthread>\bsp\nuvoton\numaker-hmi-ma35d0\nuwriter_scripts\nuwriter_program_rawnand.bat
+<path-to-rtthread>\bsp\nuvoton\numaker-iot-ma35d0\nuwriter_scripts\nuwriter_program_rawnand.bat
 ```
 
 ## **Test**
@@ -81,4 +81,4 @@ You can use Tera Term terminate emulator (or other software) to type commands of
 
 ## **Purchase**
 
-* [Nuvoton Direct](https://direct.nuvoton.com/en/numaker-hmi-ma35d0)
+* [Nuvoton Direct](https://direct.nuvoton.com/en/numaker-iot-ma35d0)
