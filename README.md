@@ -5,8 +5,9 @@
 The NuMaker-IoT-MA35D0-A1 is an evaluation board for Nuvoton NuMicro MA35D0 series microprocessors, and consists of NuMaker-IoT-MA35D03F80 board. The NuMaker-IoT-MA35D0-A1 board integrates core components to simplify the system design, based on MA35D03F864C (LQFP216 package, and stacking a 256 MB DDR), discrete power supply power solution, and two 10/100 megabit Ethernet PHY. The NuMaker-IoT-MA35D0-A1 has rich peripherals such as 2 set of 10/100 megabit Ethernet, USB2.0 high-speed host and device, 1 set of SD2.0 in Micro SD slot, 1 set of SD3.0 in SD slot, 3 set of CAN FD, SPI, I2C, UART, and 2 sets of RS-485/RS-232 serial communication ports for users to facilitate the evaluation in HMI and industrial control, home appliances, 2-wheel cluster, medical device, new energy applications, ML (Machine Learning) or your creative applications. The NuMicro MA35D0 series is based on dual 64/32-bit Arm Cortex-A35 cores, the high-performance cores run up to 650 MHz and include 32/32 KB I/D L1 cache for each core, and a 512 KB shared L2 cache. The MA35D0 series has a built-in 128 KB IBR (Internal Boot ROM) and supports secure booting from four modes, USB, SD/eMMC, NAND, and SPI Flash (SPI NOR/SPI NAND). In order to provide easy system design and manufacture, the MA35D0 series also offers LQFP package stacked with a DDR SDRAM and the size up to 256 MB. The MA35D0 series is a trusted system for IoT products' security requirement. It includes several advanced security mechanisms such as Arm TrustZone technology and secure boot, built-in cryptographic accelerators with AES, SHA, ECC, RSA, SM2/3/4, and a TRNG, also Key Store and OTP memory to protect sensitive and high-value data.
 
 <p align="center">
-<img src="./figures/NuMaker-IOT-MA35D0.png" alt="fishy" class="bg-primary">
+<img src="./figures/NuMaker-IOT-MA35D0.png" alt="fishy" class="bg-primary" width="60%">
 </p>
+
 ## **Supported compiler**
 
 Support GCC compiler. More information of these compiler version as following:
